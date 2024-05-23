@@ -7,7 +7,7 @@
 //6 reset the calculator
 /*------------- Final Project -----------------*/
 
-document.addEventListener('DOMContent', () => {
+document.addEventListener('DOMContentLoaded', () => {
     // Get references to the input fields and elements by their IDs
     const billAmountInput = document.getElementById('billAmount');
     const customTipInput = document.getElementById('customTip');
@@ -84,4 +84,5 @@ document.addEventListener('DOMContent', () => {
     // Initialize the tip buttons when the page loads
     createTipButtons();
 });
+
 
